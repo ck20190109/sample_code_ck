@@ -1,1 +1,60 @@
-These are partial source codes as sample only.
+I.	2017 WWC网站
+
+Exceptions：
+RequestAndVOCountDifferentException
+RequestItemNotExistsException
+
+Components：
+Calendar
+Share
+MainMenuClass
+
+Controllers:
+AutoController
+NewsWithTimeLine
+BanquetTicket
+Client
+PageController
+Service
+
+Helpers:
+DateHelper
+RequestHelper
+RouteHelper
+
+Models:
+Model
+
+Processors:
+AutoProcessor
+NewsWithTimeLine
+MetaProcessor
+PageProcessor
+PersistentProcessor
+
+
+II.	2017 WWC 后台管理
+
+Controllers：
+HomeController：登录页
+LangController：语言设置及主页编辑页
+MenuController：菜单设置页
+OptionController：团队信息设置页、
+PageController：网页编辑页
+PostController：新闻编辑页、
+PostMetaController：S.E.O.信息编辑页
+SimpleImage：Gallery 图片生成类
+
+MainMenuDB：菜单数据访问元件
+
+Views:
+tops.blade.php：Top Menu 修改页
+postmeta.blade.php：S.E.O. 修改页
+post.blade.php：News修改页
+post_header.blade.php：Page Header
+post_footer.blade.php：Page Footer
+page.blade.php：Web Page修改页
+option.blade.php：Team Info. 修改页
+option_mdl.blade.php：Team Info. Social/Contact 元件
+lang.blade.php：Language & Home Page修改页
+home.blade.php：Login 页
